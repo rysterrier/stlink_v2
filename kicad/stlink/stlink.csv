@@ -1,0 +1,24 @@
+,,,,,,
+#,Qty,Ref,Value,Description,Footprint,Datasheet
+1,2,"C1, C7",1uF,pspice:CAP,Capacitor_SMD:C_0603_1608Metric,~
+2,5,"C2, C4, C5, C8, C10",100nF,pspice:C,Capacitor_SMD:C_0603_1608Metric,~
+3,2,"C3, C9",100nF,pspice:CAP,Capacitor_SMD:C_0603_1608Metric,~
+4,1,C6,10nF,pspice:CAP,Capacitor_SMD:C_0603_1608Metric,~
+5,2,"C11, C12",22pF,pspice:C,Capacitor_SMD:C_0603_1608Metric,~
+6,1,D1,BAT60A,Diode:BAT60A,Diode_SMD:D_SOD-323,https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9
+7,1,D2,AAA3528,Device:LED_Dual_CACA,LED_SMD:LED_Kingbright_AAA3528ESGCT,https://www.kingbrightusa.com/images/catalog/SPEC/AAA3528ESGCT.pdf
+8,1,J1,USB_Micro,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Molex_47346-0001,~
+9,1,J2,MCU_FLASHING,Connector_Generic:Conn_01x04,Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical,~
+10,1,J3,DEBUG,Connector_Generic:Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,~
+11,1,JP1,SolderJumper_2_Open,Jumper:SolderJumper_2_Open,Resistor_SMD:R_0603_1608Metric,~
+12,1,Q1,9013,Device:KTC9013S,Package_TO_SOT_SMD:SOT-23,https://pdf.datasheet.live/datasheets-1/kec/KTC9013S-H.pdf
+13,6,"R1, R8, R9, R10, R11, R14",100k,Device:R,Resistor_SMD:R_0603_1608Metric,~
+14,5,"R2, R3, R5, R6, R18",22,Device:R,Resistor_SMD:R_0603_1608Metric,~
+15,3,"R4, R7, R12",100,Device:R,Resistor_SMD:R_0603_1608Metric,~
+16,2,"R13, R16",10k,Device:R,Resistor_SMD:R_0603_1608Metric,~
+17,1,R15,1k5,Device:R,Resistor_SMD:R_0603_1608Metric,~
+18,1,R17,36k,Device:R,Resistor_SMD:R_0603_1608Metric,~
+19,1,U1,LD3985M33R_SOT23,Regulator_Linear:LD3985M33R_SOT23,Package_TO_SOT_SMD:SOT-23-5,http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+20,1,U2,STM32F103CBTx,MCU_ST_STM32F1:STM32F103CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+21,1,Y1,Crystal,Device:Crystal,Crystal:Crystal_HC49-U_Vertical,~
+,,,,,,
