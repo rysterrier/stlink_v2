@@ -9,7 +9,7 @@ This will project include:
   STM32F103 firmware for flashing the programmer
 
 Software used for this project:
-  Altium Designer
+  KiCad
   TopoR Autorouter
   Keil MDK 5.27
  
