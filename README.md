@@ -5,7 +5,7 @@ Small STLink V2 SW programmer clone.
 
 This will project include:
   Schematic of the programmer
-  2 versions(only SW and SW+TX/RX) PCB file with and without tracing
+  PCB file
   STM32F103 firmware for flashing the programmer
 
 Software used for this project:
